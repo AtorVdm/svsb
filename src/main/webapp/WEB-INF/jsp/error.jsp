@@ -13,14 +13,14 @@
     <!-- Custom CSS -->
     <link href="/css/main.css" rel="stylesheet">
 
-    <title>Hello, ${message}!</title>
+    <title>Sorry, something went wrong!</title>
 </head>
 <body class="text-center">
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <main role="main" class="inner cover">
         <h1 class="cover-heading">Something went wrong</h1>
         <p class="lead">Loading failed with error: "${status} ${error}"</p>
-        <p>Please try again from the home page <a href="/">here</a>.</p>
+        <p>Please try again from the home page <u><a href="/">here</a></u>.</p>
     </main>
 </div>
 
